@@ -1,0 +1,27 @@
+.apropos-hero {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(rgba(10, 16, 28, 0.60), rgba(10, 16, 28, 0.60)),
+    url("img4.jpg") center/cover no-repeat;
+  padding-top: 80px;
+}
+
+.apropos-hero-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+.apropos-hero-text {
+  font-size: 18px;
+  color: #f2c572;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
