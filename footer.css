@@ -1,0 +1,94 @@
+footer{
+    background-color: #e2e8f0;
+    color: beige;
+    border-top: 1px solid black;
+}
+
+img{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.grille-principale{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 35px;
+}
+
+.colonne-footer h3{
+     color: black;
+     text-decoration: underline;
+     position: relative;
+}
+
+.colonne-footer h5{
+    color: black;
+}
+
+.coordonneedubureau p{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.coordonneedubureau a{
+    background-color: beige;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.coordonneedubureau a:hover{
+    color: black;
+}
+
+.footer-liens{
+    list-style: none;
+}
+
+.footer-liens li{
+    margin-bottom: 20px;
+}
+
+.footer-liens a{
+    background-color: beige;
+    text-decoration: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-liens a:hover{
+    color: black;
+}
+
+.footer-partenaires{
+    list-style: none;
+}
+
+.bulletin-text{
+    border-top: 1px solid black;
+    border-radius: 14px;
+    border-left: 3px solid black;
+    align-items: center;
+}
+
+.footer-bottom{
+    text-align: center;
+}
+
+.copyright{
+    letter-spacing: 1px;
+    color: black;
+}
+
+.credits{
+    color: black;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
