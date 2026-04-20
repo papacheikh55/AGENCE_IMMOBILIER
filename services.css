@@ -1,0 +1,77 @@
+.services-hero {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  background:
+    linear-gradient(rgba(10, 16, 28, 0.60), rgba(10, 16, 28, 0.60)),
+    url("imgservices.jpg") center/cover no-repeat;
+}
+
+.services-hero-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+.services-hero-text {
+  font-size: 18px;
+  color: #f2c572;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.services-bottom {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.services-bottom-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.services-contact {
+  display: flex;
+  gap: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.services-input {
+  flex: 1;
+  padding: 15px 20px;
+  font: inherit;
+  font-size: 16px;
+  color: #1e2432;
+  background: #ffffff;
+  border: 1px solid rgba(30, 36, 50, 0.15);
+  border-radius: 12px;
+  outline: none;
+}
+
+.services-input::placeholder {
+  color: #aaa;
+}
+
+.services-send {
+  padding: 15px 30px;
+  background: #f2c572;
+  color: #1e2432;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.services-send:hover {
+  opacity: 0.85;
+}
