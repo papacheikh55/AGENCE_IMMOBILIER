@@ -389,3 +389,71 @@ button{
   border-color: #f2c572;
 }
 
+.property-types1 {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.section-header {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+.section-tag {
+  background-color: #e8f0fe;
+  color: #2563eb;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  color: #1a1a2e;
+  margin: 12px 0;
+}
+
+.section-1 {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.type-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 32px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.type-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.12);
+  border-color: #2563eb;
+}
+
+.type-icon {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.type-card h3 {
+  font-size: 18px;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+}
+
+.type-card p {
+  font-size: 14px;
+  color: #9ca3af;
+}
