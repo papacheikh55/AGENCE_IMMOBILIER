@@ -518,3 +518,53 @@ button{
   height: 200px;
   object-fit: cover;
 }
+.services-bottom {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.services-bottom-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.services-contact {
+  display: flex;
+  gap: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.services-input {
+  flex: 1;
+  padding: 15px 20px;
+  font: inherit;
+  font-size: 16px;
+  color: #1e2432;
+  background: #ffffff;
+  border: 1px solid rgba(30, 36, 50, 0.15);
+  border-radius: 12px;
+  outline: none;
+}
+
+.services-input::placeholder {
+  color: #aaa;
+}
+
+.services-send {
+  padding: 15px 30px;
+  background: #f2c572;
+  color: #1e2432;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.services-send:hover {
+  opacity: 0.85;
+}
