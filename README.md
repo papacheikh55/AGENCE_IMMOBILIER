@@ -1,6 +1,8 @@
 # AGENCE_IMMOBILIER
 
-Projet de gestion d'une agence immobiliere.
+Projet de gestion d'une agence immobiliere. 
+50%
+
 
 ## Equipe
 - Chef de projet : Cheikh Gueye
